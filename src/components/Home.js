@@ -1,10 +1,12 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import VehiclesContainer from '../VehiclesContainer';
 import Navbar from './Navbar';
 import VehicleForm from './VehicleForm';
 
 const Home = () => {
   const [vehicles, setVehicles] =useState([])
+  const [search, setSearch] = useState('')
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   useEffect(() => {
     fetch("http://localhost:3001/vehicles")

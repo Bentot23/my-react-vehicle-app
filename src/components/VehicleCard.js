@@ -17,7 +17,7 @@ const VehicleCard = ({vehicles}) => {
 
     const handleFav = () => {
         setIsFav((isFav) => !isFav)
-        clickHandler(vehicles)
+        // clickHandler(vehicles)
     }
     const handleClick = () => {
         setShowFront((showFront) => !showFront)
