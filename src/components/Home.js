@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import VehiclesContainer from '../VehiclesContainer';
 import Navbar from './Navbar';
 import VehicleForm from './VehicleForm';
+import { Route, Switch } from "react-router-dom";
+
 
 const Home = () => {
   const [vehicles, setVehicles] =useState([])
@@ -45,12 +47,18 @@ const Home = () => {
             onSearchChange={handleSearch}
             onCategoryChange={handleCategoryChange}
         />
-        <VehicleForm 
-            onAddVehicle={handleAddVehicle}
-        />
-        <VehiclesContainer 
-            vehicles={filteredVehiclesFromSearch}
-        />
+        <Switch>
+            <Route path='/addvehicle'>
+            <VehicleForm 
+                onAddVehicle={handleAddVehicle}
+            />
+            </Route>
+            <Route exact path='/'>
+            <VehiclesContainer 
+                vehicles={filteredVehiclesFromSearch}
+            />
+            </Route>
+        </Switch>
     </div>
   )
 }

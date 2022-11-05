@@ -7,10 +7,10 @@ import IconButton from '@mui/material/IconButton';
 import Search from './Search';
 // import AddBoxIcon from '@mui/icons-material/AddBox';
 // import StarBorderIcon from '@mui/icons-material/StarBorder';
-// import {NavLink} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import HomeIcon from '@mui/icons-material/Home';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 
@@ -66,24 +66,24 @@ const Navbar = ({search, category, onSearchChange, onCategoryChange}) => {
 
         <div role="presentation" onClick={handleClick}>
         <Breadcrumbs aria-label="breadcrumb">
-            <Link
+            <NavLink
             underline="hover"
             sx={{ display: 'flex', alignItems: 'center' }}
             color="inherit"
-            href="/"
+            to="/"
             >
             <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
             Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
             underline="hover"
             sx={{ display: 'flex', alignItems: 'center' }}
             color="inherit"
-            href="/addvehicle"
+            to="/addvehicle"
             >
             <WhatshotIcon sx={{ mr: 0.5 }} fontSize="inherit" />
             Add Vehicle
-            </Link>
+            </NavLink>
         </Breadcrumbs>
         </div>
 
