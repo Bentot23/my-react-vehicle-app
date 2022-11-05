@@ -8,17 +8,16 @@ import AddIcon from '@mui/icons-material/Add';
 import DownloadDoneOutlinedIcon from '@mui/icons-material/DownloadDoneOutlined';
 import Box from '@mui/material/Box';
 
-
 const VehicleCard = ({vehicles}) => {
-    const {id, brand, model, yearModel, description, exteriorUrl, interiorUrl} = vehicles;
-    const [isFav, setIsFav] = useState(false)
+    const {id, brand, model, price, description, exteriorUrl, interiorUrl} = vehicles;
+    // const [isFav, setIsFav] = useState(false)
     const [showFront, setShowFront] = useState(true)
     const [infoClick, setInfoClick] = useState(false)
 
-    const handleFav = () => {
-        setIsFav((isFav) => !isFav)
-        // clickHandler(vehicles)
-    }
+    // const handleFav = () => {
+    //     setIsFav((isFav) => !isFav)
+    //     // clickHandler(vehicles)
+    // }
     const handleClick = () => {
         setShowFront((showFront) => !showFront)
     }
@@ -52,12 +51,15 @@ const VehicleCard = ({vehicles}) => {
                     onClick={handleInfo}
                 >
                     <InfoIcon  />
-                        {infoClick ? description : yearModel}
+                        {infoClick ? 
+                            description : 
+                            `$${price}`
+                        }
                     </IconButton>
-                    <button onClick={handleFav} >
-                        {isFav ? <DownloadDoneOutlinedIcon/> : <AddIcon />}
+                    {/* <button onClick={handleFav} > */}
+                        {/* {isFav ? <DownloadDoneOutlinedIcon/> : <AddIcon />} */}
                         {/* <AddIcon /> */}
-                    </button>
+                    {/* </button> */}
                 </>
             }
         />

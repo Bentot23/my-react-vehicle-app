@@ -1,180 +1,180 @@
 {
-    "vehicles": [
-      {
-        "id": 1,
-        "brand": "Toyota",
-        "model": "Tundra",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "Japanese brand",
-        "description": "The 2022 Toyota Tundra is a four-door pickup truck offered in extended-cab (Double Cab) and crew-cab (CrewMax) configurations, with one short bed and one long bed option for each. There are seven trim levels from which to choose: SR, SR5, Limited, Platinum, 1794, TRD Pro and Capstone.",
-        "exteriorUrl": "https://cdn.carbuzz.com/gallery-images/2022-toyota-tundra-carbuzz-955353.jpg",
-        "interiorUrl": "https://cars.usnews.com/static/images/Auto/izmo/i159615094/2022_toyota_tundra_dashboard.jpg"
-      },
-      {
-        "id": 2,
-        "brand": "Ram",
-        "model": "Ram1500",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "American brand",
-        "description": "The entry-level 2022 RAM 1500 starts at $32,795 MSRP, but prices vary depending on which of the RAM 1500 configurations you choose. Explore the price of each 2022 RAM 1500 trim level below: 2022 RAM 1500 Tradesman® Price: $32,795 starting MSRP. 2022 RAM 1500 Big Horn® Price: $37,390 starting MSRP.",
-        "exteriorUrl": "https://www.dorjblog.com/wp-content/uploads/2022/04/RAM-Truck.jpg",
-        "interiorUrl": "https://cdn.carbuzz.com/gallery-images/2022-ram-1500-dashboard-carbuzz-869525-1600.jpg"
-      },
-      {
-        "id": 3,
-        "brand": "GMC",
-        "model": "Sierra",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "American brand",
-        "description": "The 2022 Sierra 1500 continues to offer a strong selection of engines, including a 420-hp V-8 and a diesel six-cylinder with 460 pound-feet of torque. The mightiest model can tow up to 13,200 pounds, and the newly added AT4X is basically GMC's version of the off-road-focused Silverado ZR2.",
-        "exteriorUrl": "https://www.autonocion.com/wp-content/uploads/2021/10/GMC-Sierra-1500-2022-16-889x500.jpg",
-        "interiorUrl": "https://cimg3.ibsrv.net/ibimg/hgm/1920x1080-1/100/811/gmc-sierra-1500_100811735.jpg"
-      },
-      {
-        "id": 4,
-        "brand": "Chevrolet",
-        "model": "Silverado1500",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "American brand",
-        "description": "New for 2022 is the first-ever Silverado ZR2, Chevy's new flagship off-road truck and the latest addition to a successful lineup of off-road, factory-installed lifted trucks. The enhanced 2022 Silverado also features an elevated exterior design and a new, expressive interior with enhanced technology.",
-        "exteriorUrl": "https://cdn.motor1.com/images/mgl/y8Rpl/s1/2020-chevrolet-silverado-diesel.jpg",
-        "interiorUrl": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1600x900/format/jpg/quality/85/https://s.aolcdn.com/os/ab/_cms/2021/09/08155403/2022-Chevrolet-Silverado-HighCountry-015.jpg"
-      },
-      {
-        "id": 5,
-        "brand": "Jeep",
-        "model": "Gladiator",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "American brand",
-        "description": "The 2022 Jeep Gladiator is a five-passenger, four-door midsize truck. It only comes in a crew-cab configuration that's available in four trim levels: Sport, Overland, Rubicon and Mojave. All come with a 5-foot cargo bed and four-wheel drive. A choice of two engines is available.",
-        "exteriorUrl": "https://cdn.motor1.com/images/mgl/R0Www/s1/2021-jeep-gladiator-mojave-exterior.jpg",
-        "interiorUrl": "https://media.ed.edmunds-media.com/jeep/gladiator/2021/oem/2021_jeep_gladiator_crew-cab-pickup_mojave_d_oem_1_815.jpg"
-      },
-      {
-        "id": 6,
-        "brand": "Nissan",
-        "model": "Titan",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "Japanese brand",
-        "description": "The Nissan Titan is a full-size pickup truck available in smaller King Cab or larger crew-cab configurations. There are four trim levels to choose from: S, SV, Pro-4X and Platinum Reserve. All models come with a 5.6-liter V8 engine (400 horsepower, 413 lb-ft of torque) attached to a nine-speed automatic transmission.",
-        "exteriorUrl": "https://media.ed.edmunds-media.com/nissan/titan/2021/oem/2021_nissan_titan_crew-cab-pickup_pro-4x_fq_oem_1_600.jpg",
-        "interiorUrl": "https://media.ed.edmunds-media.com/nissan/titan-xd/2020/oem/2020_nissan_titan-xd_crew-cab-pickup_platinum-reserve_d_oem_1_815.jpg"
-      },
-      {
-        "id": 7,
-        "brand": "Ford",
-        "model": "F150",
-        "yearModel": 2022,
-        "type": "truck",
-        "category": "American brand",
-        "description": "The 2022 F-150 is available with several engines—a 290-hp 3.3-liter V-6; a 400-hp 5.0-liter V-8; a 325-hp twin-turbocharged 2.7-liter V-6; a 400-hp twin-turbocharged 3.5-liter V-6; and a 250-hp 3.0-liter diesel V-6. No matter which engine you choose, the F-150 comes paired with a 10-speed automatic.",
-        "exteriorUrl": "https://cdn.motor1.com/images/mgl/9oL80/s3/2021-ford-f-150-exterior-front-quarter.jpg",
-        "interiorUrl": "https://cars.usnews.com/static/images/Auto/izmo/i159614967/2022_ford_f_150_dashboard.jpg"
-      },
-      {
-        "id": 8,
-        "brand": "Toyota",
-        "model": "Sequoia",
-        "yearModel": 2023,
-        "type": "suv",
-        "category": "Japanese brand",
-        "description": "The Sequoia comes standard with the iForce MAX hybrid powertrain that's optional in the Tundra pickup. This powertrain is comprised of a twin-turbo 3.4-liter V-6 engine and an electric motor that produce a total of 437 hp and 583 pound-feet of torque.",
-        "exteriorUrl": "https://www.motortrend.com/uploads/2022/01/2023_Toyota_Sequoia_TRD-Pro_032.jpg",
-        "interiorUrl": "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/06/2023-toyota-sequoia-capstone-interior.jpg"
-      },
-      {
-        "id": 9,
-        "brand": "GMC",
-        "model": "Yukon",
-        "yearModel": 2022,
-        "type": "suv",
-        "category": "American brand",
-        "description": "The 2022 GMC Yukon starts at $51,600. The 2022 GMC Yukon is a spacious full-size SUV with three seating rows. The 2022 Yukon XL has a longer body that adds a little more legroom and a lot more cargo space. Trim levels are SLE, SLT, AT4, and Denali.",
-        "exteriorUrl": "https://motorillustrated.com/wp-content/uploads/2020/10/2021-GMC-Yukon-AT4-48-MD.jpg",
-        "interiorUrl": "https://cdn.static-carhp.com/images/content/b0634464adc06d5d1fc6f8419b02ef4e.jpeg"
-      },
-      {
-        "id": 10,
-        "brand": "Ford",
-        "model": "Expedition",
-        "yearModel": 2022,
-        "type": "suv",
-        "category": "American brand",
-        "description": "The 2022 Expedition has a revised design, an off-road-focused model, and more power from its twin-turbo EcoBoost 3.5-liter V-6. Ford has given the Expedition a refresh for 2022, with sharper LED lighting elements and revised grille designs.",
-        "exteriorUrl": "https://www.motortrend.com/uploads/2021/09/2022-Ford-Expedition-Stealth-Edition-Performance-Package_01-1.jpg",
-        "interiorUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/coxohio/PI47JBRI55BXLBQ3DLZ7PRG4CI.jpg"
-      },
-      {
-        "id": 11,
-        "brand": "Honda",
-        "model": "Odyssey",
-        "yearModel": 2022,
-        "type": "minivan",
-        "category": "Japanese brand",
-        "description": "The 2022 Honda Odyssey is powered by a reliable 3.5-liter V6 engine that produces 280 horsepower and 262 pound-feet of torque. The engine power is perfect for anything you will need your van for and makes getting on the highway a breeze.",
-        "exteriorUrl": "https://di-uploads-pod16.dealerinspire.com/pattypeckhonda/uploads/2021/06/platinum-white-pearl.png",
-        "interiorUrl": "https://cdn.carbuzz.com/gallery-images/2022-honda-odyssey-central-console-carbuzz-737385-1600.jpg"
-      },
-      {
-        "id": 12,
-        "brand": "Toyota",
-        "model": "Sienna",
-        "yearModel": 2022,
-        "type": "minivan",
-        "category": "Japanese brand",
-        "description": "The most significant change in the 2022 Sienna in terms of safety is that it comes standard with Toyota Safety Sense™ 2.0. In addition to that, it has rear seat passenger seatbelt reminders and rear occupant detection to keep your family secure.",
-        "exteriorUrl": "https://file.kelleybluebookimages.com/kbb/base/house/2022/2022-Toyota-Sienna-FrontSide_TTSIE2201_640x480.jpg",
-        "interiorUrl": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2021/09/2022_Toyota_Sienna_Platinum_Predawn-Gray-Mica_021-1000x600.jpg"
-      },
-      {
-        "id": 13,
-        "brand": "Honda",
-        "model": "Civic",
-        "yearModel": 2022,
-        "type": "sedan",
-        "category": "Japanese brand",
-        "description": "The 2022 Honda Civic remains a go-to economy car, with low-key performance and high-economy powertrains. The engine options carry over from the 2021 models, with a 158-hp 2.0-liter inline-4 on LX and Sport trims and a 180-hp 1.5-liter turbo-4 in EX/EX-L and Touring/Sport Touring trims.",
-        "exteriorUrl": "https://images.hgmsites.net/hug/2022-honda-civic-sdn_100810827_h.jpg",
-        "interiorUrl": "https://s1.cdn.autoevolution.com/images/news/the-new-honda-civic-sedan-is-here-lets-take-a-closer-look-at-its-elegant-cabin-160352_1.jpg"
-      },
-      {
-        "id": 14,
-        "brand": "Toyota",
-        "model": "Corolla",
-        "yearModel": 2022,
-        "type": "sedan",
-        "category": "Japanese brand",
-        "description": "The 2022 Toyota Corolla has a $20,075 starting price, which is about average for the compact car class . The price climbs to $28,360 for the range-topping Corolla XSE Apex Edition.",
-        "exteriorUrl": "https://s1.cdn.autoevolution.com/images/news/gallery/2022-toyota-corolla-sedan-adds-two-new-paint-colors_1.jpg",
-        "interiorUrl": "https://ottoyota.sfo2.digitaloceanspaces.com/2022/Corolla/COR_MY22_0007_V001-1_result.jpg"
-      },
-      {
-        "id": 15,
-        "brand": "Mazda",
-        "model": "Mazda3",
-        "yearModel": 2022,
-        "type": "hatchback",
-        "category": "Japanese brand",
-        "description": "The 2022 Mazda3 is available in three main trim variants: 2.0, 2.5 S, and 2.5 Turbo. The Select, Preferred, and Premium packages are available for the 2.5 S variant, while the 2.5 Turbo receives a Premium Plus package with standard AWD.",
-        "exteriorUrl": "https://www.theautochannel.com/news/2022/04/27/1135690-2022-mazda3-2-5-turbo-awd-hatchback-premium-plus-review.8-lg.jpg",
-        "interiorUrl": "https://di-uploads-pod30.dealerinspire.com/smailmazda/uploads/2021/03/mazda3turbo_int.jpg"
-      },
-      {
-        "brand": "Tesla",
-        "model": "Model3",
-        "interiorUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Interior_of_Model_3.jpg/1280px-Interior_of_Model_3.jpg",
-        "exteriorUrl": "https://media.ed.edmunds-media.com/tesla/model-3/2022/oem/2022_tesla_model-3_sedan_performance_fq_oem_1_1280.jpg",
-        "category": "American brand",
-        "description": "Unlike traditional all-wheel drive systems, they digitally control torque to the front and rear wheels for far better handling and traction control. Model 3 is fully electric, so you never need to visit a gas station again.",
-        "type": "sedan",
-        "yearModel": "2022",
-        "id": 16
-      }
-    ]
-  }
+  "vehicles": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Tundra",
+      "price": 35950,
+      "type": "truck",
+      "category": "Japanese brand",
+      "description": "The 2022 Toyota Tundra is a four-door pickup truck offered in extended-cab (Double Cab) and crew-cab (CrewMax) configurations, with one short bed and one long bed option for each. There are seven trim levels from which to choose: SR, SR5, Limited, Platinum, 1794, TRD Pro and Capstone.",
+      "exteriorUrl": "https://cdn.carbuzz.com/gallery-images/2022-toyota-tundra-carbuzz-955353.jpg",
+      "interiorUrl": "https://cars.usnews.com/static/images/Auto/izmo/i159615094/2022_toyota_tundra_dashboard.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Ram",
+      "model": "Ram1500",
+      "price": 37090,
+      "type": "truck",
+      "category": "American brand",
+      "description": "The entry-level 2022 RAM 1500 starts at $32,795 price, but prices vary depending on which of the RAM 1500 configurations you choose. Explore the price of each 2022 RAM 1500 trim level below: 2022 RAM 1500 Tradesman® Price: $32,795 starting price. 2022 RAM 1500 Big Horn® Price: $37,390 starting price.",
+      "exteriorUrl": "https://www.dorjblog.com/wp-content/uploads/2022/04/RAM-Truck.jpg",
+      "interiorUrl": "https://cdn.carbuzz.com/gallery-images/2022-ram-1500-dashboard-carbuzz-869525-1600.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "GMC",
+      "model": "Sierra",
+      "price": 35400,
+      "type": "truck",
+      "category": "American brand",
+      "description": "The 2022 Sierra 1500 continues to offer a strong selection of engines, including a 420-hp V-8 and a diesel six-cylinder with 460 pound-feet of torque. The mightiest model can tow up to 13,200 pounds, and the newly added AT4X is basically GMC's version of the off-road-focused Silverado ZR2.",
+      "exteriorUrl": "https://www.autonocion.com/wp-content/uploads/2021/10/GMC-Sierra-1500-2022-16-889x500.jpg",
+      "interiorUrl": "https://cimg3.ibsrv.net/ibimg/hgm/1920x1080-1/100/811/gmc-sierra-1500_100811735.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Chevrolet",
+      "model": "Silverado1500",
+      "price": 31500,
+      "type": "truck",
+      "category": "American brand",
+      "description": "New for 2022 is the first-ever Silverado ZR2, Chevy's new flagship off-road truck and the latest addition to a successful lineup of off-road, factory-installed lifted trucks. The enhanced 2022 Silverado also features an elevated exterior design and a new, expressive interior with enhanced technology.",
+      "exteriorUrl": "https://cdn.motor1.com/images/mgl/y8Rpl/s1/2020-chevrolet-silverado-diesel.jpg",
+      "interiorUrl": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1600x900/format/jpg/quality/85/https://s.aolcdn.com/os/ab/_cms/2021/09/08155403/2022-Chevrolet-Silverado-HighCountry-015.jpg"
+    },
+    {
+      "id": 5,
+      "brand": "Jeep",
+      "model": "Gladiator",
+      "price": 37170,
+      "type": "truck",
+      "category": "American brand",
+      "description": "The 2022 Jeep Gladiator is a five-passenger, four-door midsize truck. It only comes in a crew-cab configuration that's available in four trim levels: Sport, Overland, Rubicon and Mojave. All come with a 5-foot cargo bed and four-wheel drive. A choice of two engines is available.",
+      "exteriorUrl": "https://cdn.motor1.com/images/mgl/R0Www/s1/2021-jeep-gladiator-mojave-exterior.jpg",
+      "interiorUrl": "https://media.ed.edmunds-media.com/jeep/gladiator/2021/oem/2021_jeep_gladiator_crew-cab-pickup_mojave_d_oem_1_815.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Nissan",
+      "model": "Titan",
+      "price": 38810,
+      "type": "truck",
+      "category": "Japanese brand",
+      "description": "The Nissan Titan is a full-size pickup truck available in smaller King Cab or larger crew-cab configurations. There are four trim levels to choose from: S, SV, Pro-4X and Platinum Reserve. All models come with a 5.6-liter V8 engine (400 horsepower, 413 lb-ft of torque) attached to a nine-speed automatic transmission.",
+      "exteriorUrl": "https://media.ed.edmunds-media.com/nissan/titan/2021/oem/2021_nissan_titan_crew-cab-pickup_pro-4x_fq_oem_1_600.jpg",
+      "interiorUrl": "https://media.ed.edmunds-media.com/nissan/titan-xd/2020/oem/2020_nissan_titan-xd_crew-cab-pickup_platinum-reserve_d_oem_1_815.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "Ford",
+      "model": "F150",
+      "price": 31520,
+      "type": "truck",
+      "category": "American brand",
+      "description": "The 2022 F-150 is available with several engines—a 290-hp 3.3-liter V-6; a 400-hp 5.0-liter V-8; a 325-hp twin-turbocharged 2.7-liter V-6; a 400-hp twin-turbocharged 3.5-liter V-6; and a 250-hp 3.0-liter diesel V-6. No matter which engine you choose, the F-150 comes paired with a 10-speed automatic.",
+      "exteriorUrl": "https://cdn.motor1.com/images/mgl/9oL80/s3/2021-ford-f-150-exterior-front-quarter.jpg",
+      "interiorUrl": "https://cars.usnews.com/static/images/Auto/izmo/i159614967/2022_ford_f_150_dashboard.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Toyota",
+      "model": "Sequoia",
+      "price": 58300,
+      "type": "suv",
+      "category": "Japanese brand",
+      "description": "The Sequoia comes standard with the iForce MAX hybrid powertrain that's optional in the Tundra pickup. This powertrain is comprised of a twin-turbo 3.4-liter V-6 engine and an electric motor that produce a total of 437 hp and 583 pound-feet of torque.",
+      "exteriorUrl": "https://www.motortrend.com/uploads/2022/01/2023_Toyota_Sequoia_TRD-Pro_032.jpg",
+      "interiorUrl": "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/06/2023-toyota-sequoia-capstone-interior.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "GMC",
+      "model": "Yukon",
+      "price": 57400,
+      "type": "suv",
+      "category": "American brand",
+      "description": "The 2022 GMC Yukon starts at $51,600. The 2022 GMC Yukon is a spacious full-size SUV with three seating rows. The 2022 Yukon XL has a longer body that adds a little more legroom and a lot more cargo space. Trim levels are SLE, SLT, AT4, and Denali.",
+      "exteriorUrl": "https://motorillustrated.com/wp-content/uploads/2020/10/2021-GMC-Yukon-AT4-48-MD.jpg",
+      "interiorUrl": "https://cdn.static-carhp.com/images/content/b0634464adc06d5d1fc6f8419b02ef4e.jpeg"
+    },
+    {
+      "id": 10,
+      "brand": "Ford",
+      "model": "Expedition",
+      "price": 52405,
+      "type": "suv",
+      "category": "American brand",
+      "description": "The 2022 Expedition has a revised design, an off-road-focused model, and more power from its twin-turbo EcoBoost 3.5-liter V-6. Ford has given the Expedition a refresh for 2022, with sharper LED lighting elements and revised grille designs.",
+      "exteriorUrl": "https://www.motortrend.com/uploads/2021/09/2022-Ford-Expedition-Stealth-Edition-Performance-Package_01-1.jpg",
+      "interiorUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/coxohio/PI47JBRI55BXLBQ3DLZ7PRG4CI.jpg"
+    },
+    {
+      "id": 11,
+      "brand": "Honda",
+      "model": "Odyssey",
+      "price": 33040,
+      "type": "minivan",
+      "category": "Japanese brand",
+      "description": "The 2022 Honda Odyssey is powered by a reliable 3.5-liter V6 engine that produces 280 horsepower and 262 pound-feet of torque. The engine power is perfect for anything you will need your van for and makes getting on the highway a breeze.",
+      "exteriorUrl": "https://di-uploads-pod16.dealerinspire.com/pattypeckhonda/uploads/2021/06/platinum-white-pearl.png",
+      "interiorUrl": "https://cdn.carbuzz.com/gallery-images/2022-honda-odyssey-central-console-carbuzz-737385-1600.jpg"
+    },
+    {
+      "id": 12,
+      "brand": "Toyota",
+      "model": "Sienna",
+      "price": 35285,
+      "type": "minivan",
+      "category": "Japanese brand",
+      "description": "The most significant change in the 2022 Sienna in terms of safety is that it comes standard with Toyota Safety Sense™ 2.0. In addition to that, it has rear seat passenger seatbelt reminders and rear occupant detection to keep your family secure.",
+      "exteriorUrl": "https://file.kelleybluebookimages.com/kbb/base/house/2022/2022-Toyota-Sienna-FrontSide_TTSIE2201_640x480.jpg",
+      "interiorUrl": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2021/09/2022_Toyota_Sienna_Platinum_Predawn-Gray-Mica_021-1000x600.jpg"
+    },
+    {
+      "id": 13,
+      "brand": "Honda",
+      "model": "Civic",
+      "price": 22550,
+      "type": "sedan",
+      "category": "Japanese brand",
+      "description": "The 2022 Honda Civic remains a go-to economy car, with low-key performance and high-economy powertrains. The engine options carry over from the 2021 models, with a 158-hp 2.0-liter inline-4 on LX and Sport trims and a 180-hp 1.5-liter turbo-4 in EX/EX-L and Touring/Sport Touring trims.",
+      "exteriorUrl": "https://images.hgmsites.net/hug/2022-honda-civic-sdn_100810827_h.jpg",
+      "interiorUrl": "https://s1.cdn.autoevolution.com/images/news/the-new-honda-civic-sedan-is-here-lets-take-a-closer-look-at-its-elegant-cabin-160352_1.jpg"
+    },
+    {
+      "id": 14,
+      "brand": "Toyota",
+      "model": "Corolla",
+      "price": 20425,
+      "type": "sedan",
+      "category": "Japanese brand",
+      "description": "The 2022 Toyota Corolla has a $20,075 starting price, which is about average for the compact car class . The price climbs to $28,360 for the range-topping Corolla XSE Apex Edition.",
+      "exteriorUrl": "https://s1.cdn.autoevolution.com/images/news/gallery/2022-toyota-corolla-sedan-adds-two-new-paint-colors_1.jpg",
+      "interiorUrl": "https://ottoyota.sfo2.digitaloceanspaces.com/2022/Corolla/COR_MY22_0007_V001-1_result.jpg"
+    },
+    {
+      "id": 15,
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "price": 21150,
+      "type": "hatchback",
+      "category": "Japanese brand",
+      "description": "The 2022 Mazda3 is available in three main trim variants: 2.0, 2.5 S, and 2.5 Turbo. The Select, Preferred, and Premium packages are available for the 2.5 S variant, while the 2.5 Turbo receives a Premium Plus package with standard AWD.",
+      "exteriorUrl": "https://www.theautochannel.com/news/2022/04/27/1135690-2022-mazda3-2-5-turbo-awd-hatchback-premium-plus-review.8-lg.jpg",
+      "interiorUrl": "https://di-uploads-pod30.dealerinspire.com/smailmazda/uploads/2021/03/mazda3turbo_int.jpg"
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model3",
+      "interiorUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Interior_of_Model_3.jpg/1280px-Interior_of_Model_3.jpg",
+      "exteriorUrl": "https://media.ed.edmunds-media.com/tesla/model-3/2022/oem/2022_tesla_model-3_sedan_performance_fq_oem_1_1280.jpg",
+      "category": "American brand",
+      "description": "Unlike traditional all-wheel drive systems, they digitally control torque to the front and rear wheels for far better handling and traction control. Model 3 is fully electric, so you never need to visit a gas station again.",
+      "type": "sedan",
+      "price": 46990,
+      "id": 16
+    }
+  ]
+}

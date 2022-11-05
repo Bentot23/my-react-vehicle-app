@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ArrowUpwardOutlinedIcon from '@mui/icons-material/ArrowUpwardOutlined';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 const VehicleForm = ({onAddVehicle}) => {
 
@@ -11,7 +11,7 @@ const VehicleForm = ({onAddVehicle}) => {
     category: "",
     description: "",
     type: "",
-    yearModel: ""
+    price: ""
   })
 
   function handleChange(event) {
@@ -37,7 +37,7 @@ const VehicleForm = ({onAddVehicle}) => {
       category: formData.category,
       description: formData.description,
       type: formData.type,
-      yearModel: formData.yearModel
+      price: formData.price
     }
 
     fetch("http://localhost:3001/vehicles", {
@@ -58,7 +58,7 @@ const VehicleForm = ({onAddVehicle}) => {
         category: "",
         description: "",
         type: "",
-        yearModel: ""
+        price: ""
       })
     })
   }
@@ -89,11 +89,11 @@ const VehicleForm = ({onAddVehicle}) => {
       />   
 
       <input
-        placeholder="Year Model" 
+        placeholder="$" 
         onChange={handleChange}  
-        value={formData.yearModel} 
-        type="text" 
-        name="yearModel"
+        value={formData.price} 
+        type="number" 
+        name="price"
       />
       <br/>
       
@@ -147,7 +147,7 @@ const VehicleForm = ({onAddVehicle}) => {
       </select>
       <br/>
       <button variant="primary" type="submit">
-        Submit<ArrowUpwardOutlinedIcon/>
+        Submit<KeyboardArrowUpIcon/>
       </button>
     </form>
     <hr/>  
