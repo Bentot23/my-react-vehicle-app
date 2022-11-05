@@ -24,7 +24,11 @@ const Navbar = ({search, category, onSearchChange, onCategoryChange}) => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar 
         position="static"
-        style={{ background: '#424242' }}  
+        style={{ 
+            background: '#424242',
+            backgroundImage: `url("https://i.pinimg.com/originals/0c/28/1c/0c281ccd0476d1010a21ee8b142c79ca.jpg")`,
+            
+        }}  
       >
         <Toolbar>
           <IconButton

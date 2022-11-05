@@ -65,8 +65,8 @@ const VehicleForm = ({onAddVehicle}) => {
   return (
     <div 
         style = {{
-        // backgroundImage: `url("https://www.pageinsurancelive.com/wp-content/uploads/2016/10/light-blue-background-wallpaper-1.jpg")`,
-        backgroundColor: "#424242"
+        backgroundImage: `url("https://cdn.wallpapersafari.com/40/48/HvXbeg.jpg")`,
+        // backgroundColor: "#424242"
         }}
         >
       <h3>Add Vehicle</h3>
