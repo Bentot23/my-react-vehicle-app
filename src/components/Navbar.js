@@ -2,15 +2,22 @@ import React from 'react'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Search from './Search';
-import AddBoxIcon from '@mui/icons-material/AddBox';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
+// import AddBoxIcon from '@mui/icons-material/AddBox';
+// import StarBorderIcon from '@mui/icons-material/StarBorder';
+// import {NavLink} from "react-router-dom"
+import Typography from '@mui/material/Typography';
+import Breadcrumbs from '@mui/material/Breadcrumbs';
+import Link from '@mui/material/Link';
 import HomeIcon from '@mui/icons-material/Home';
-import {NavLink} from "react-router-dom"
+import WhatshotIcon from '@mui/icons-material/Whatshot';
 
+const handleClick = (event) => {
+    event.preventDefault();
+    console.info('You clicked a breadcrumb.');
+  }
 
 const Navbar = ({search, category, onSearchChange, onCategoryChange}) => {
   return (
@@ -37,7 +44,7 @@ const Navbar = ({search, category, onSearchChange, onCategoryChange}) => {
                 onCategoryChange={onCategoryChange} 
             />
           </Typography>
-          <NavLink 
+          {/* <NavLink 
             to="/"
             exact
           >
@@ -50,7 +57,32 @@ const Navbar = ({search, category, onSearchChange, onCategoryChange}) => {
             <Button><AddBoxIcon/>
               Add Vehicle
             </Button>
-          </NavLink>          
+          </NavLink>           */}
+
+
+        <div role="presentation" onClick={handleClick}>
+        <Breadcrumbs aria-label="breadcrumb">
+            <Link
+            underline="hover"
+            sx={{ display: 'flex', alignItems: 'center' }}
+            color="inherit"
+            href="/"
+            >
+            <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
+            Home
+            </Link>
+            <Link
+            underline="hover"
+            sx={{ display: 'flex', alignItems: 'center' }}
+            color="inherit"
+            href="/addvehicle"
+            >
+            <WhatshotIcon sx={{ mr: 0.5 }} fontSize="inherit" />
+            Add Vehicle
+            </Link>
+        </Breadcrumbs>
+        </div>
+
         </Toolbar>
       </AppBar>
     </Box>

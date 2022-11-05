@@ -4,9 +4,8 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
-import AddIcon from '@mui/icons-material/Add';
-import DownloadDoneOutlinedIcon from '@mui/icons-material/DownloadDoneOutlined';
-import Box from '@mui/material/Box';
+// import AddIcon from '@mui/icons-material/Add';
+// import DownloadDoneOutlinedIcon from '@mui/icons-material/DownloadDoneOutlined';
 
 const VehicleCard = ({vehicles}) => {
     const {id, brand, model, price, description, exteriorUrl, interiorUrl} = vehicles;
@@ -26,14 +25,28 @@ const VehicleCard = ({vehicles}) => {
     }
 
   return (
-    <Box style = {{display: "inline"}}>
     <ImageList 
-        variant="masonry" cols={3} gap={8}
+        style = {{
+            display: "inline-block",
+            // width: "100%",
+            // height: "100%"
+        }}
+        // sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}
+        // // variant="masonry" cols={3} gap={8}
+        sx={{
+            width: 500,
+            height: 450,
+            // Promote the list into its own layer in Chrome. This costs memory, but helps keeping high FPS.
+            transform: 'translateZ(0)',
+          }}
+          rowHeight={400}
+          gap={1}
     >   
     <ImageListItem 
         key={id}
         >
-        <img
+        <img 
+            
             onClick={handleClick}
             src={`${showFront ? exteriorUrl : interiorUrl}?w=248&fit=crop&auto=format`}
             srcSet={`${showFront ? exteriorUrl : interiorUrl}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -41,6 +54,11 @@ const VehicleCard = ({vehicles}) => {
             loading="lazy"
         />
         <ImageListItemBar
+            sx={{
+                background:
+                'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, ' +
+                'rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+            }}
             title={brand}
             subtitle={model}
             actionIcon={
@@ -65,7 +83,6 @@ const VehicleCard = ({vehicles}) => {
         />
     </ImageListItem>
     </ImageList>
-    </Box>
   )
 }
 
