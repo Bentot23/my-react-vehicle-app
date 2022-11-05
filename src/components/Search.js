@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search({onCategoryChange, onSearchChange, search, category}) {
+const Search = ({onCategoryChange, onSearchChange, search, category}) => {
   
   return (
     <div className="search">
