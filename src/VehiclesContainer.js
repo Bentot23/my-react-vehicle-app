@@ -1,8 +1,13 @@
 import React from 'react'
+import VehicleCard from './components/VehicleCard'
 
-const VehiclesContainer = () => {
+const VehiclesContainer = ({vehicles}) => {
+    const renderVehicle = vehicles.map(vehicle => (
+        <VehicleCard key={vehicle.id} vehicles={vehicle} />
+      ))  
   return (
-    <div>VehiclesContainer</div>
+    <div className='cards'>{renderVehicle}</div>
+
   )
 }
 
