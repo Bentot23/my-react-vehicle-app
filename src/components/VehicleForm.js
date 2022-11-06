@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { Gradient } from "@mui/icons-material";
 
 const VehicleForm = ({onAddVehicle}) => {
 
@@ -65,16 +66,34 @@ const VehicleForm = ({onAddVehicle}) => {
   return (
     <div 
         style = {{
-        backgroundImage: `url("https://cdn.wallpapersafari.com/40/48/HvXbeg.jpg")`,
-        // backgroundColor: "#424242"
+        // backgroundImage: `url("https://cdn.wallpapersafari.com/40/48/HvXbeg.jpg")`, 
+        height: '100vh',
+        // backgroundColor: '#9e9e9e',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '0px 60px',
+        borderRadius: '10px',
         }}
         >
-      <h3 style={{
-        color: '#eeeeee'
-      }}>Add Vehicle</h3>
     
-    <form onSubmit={handleSubmit}>
+    <form 
+      onSubmit={handleSubmit}
+      style={{
+        backgroundPosition: 'center'
+
+      }}
+    >
+      <h1 
+        style={{
+          color: '#f5f5f5'
+        }}
+      >Add Vehicle</h1>
       <input
+        style={{
+          padding: '15px',
+          margin: '10px 0px'
+        }}
         placeholder="Brand" 
         onChange={handleChange}  
         value={formData.brand} 
@@ -82,7 +101,13 @@ const VehicleForm = ({onAddVehicle}) => {
         name="brand" 
       />   
 
-      <input 
+      <input
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }} 
         placeholder="Model" 
         onChange={handleChange}  
         value={formData.model} 
@@ -91,6 +116,12 @@ const VehicleForm = ({onAddVehicle}) => {
       />   
 
       <input
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }}
         placeholder="$" 
         onChange={handleChange}  
         value={formData.price} 
@@ -100,6 +131,12 @@ const VehicleForm = ({onAddVehicle}) => {
       <br/>
       
       <input
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }}
         placeholder="Exterior Url" 
         onChange={handleChange}  
         value={formData.exteriorUrl} 
@@ -107,7 +144,13 @@ const VehicleForm = ({onAddVehicle}) => {
         name="exteriorUrl"
       />
 
-      <input 
+      <input
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }} 
         placeholder="Interior Url" 
         onChange={handleChange}  
         value={formData.interiorUrl} 
@@ -117,6 +160,12 @@ const VehicleForm = ({onAddVehicle}) => {
     <br/>
   
       <textarea
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }}
         rows="5" cols="33"
         placeholder="Description" 
         onChange={handleChange}  
@@ -125,7 +174,13 @@ const VehicleForm = ({onAddVehicle}) => {
         name="description"
       ></textarea>
     <br/>
-      <select  
+      <select
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }}  
         name="type"
 
         value={formData.type} 
@@ -139,6 +194,12 @@ const VehicleForm = ({onAddVehicle}) => {
         <option value="hatchback">Hatchback</option>
       </select>
       <select 
+        style={{
+          padding: '15px',
+          margin: '10px 0px',
+          borderRadius: '5px',
+          border: '1px solid gray'
+        }}
         name="category"
         onChange={handleChange}  
         value={formData.category} 
@@ -148,11 +209,26 @@ const VehicleForm = ({onAddVehicle}) => {
         <option value="Japanese brand">Japanese Brand</option>
       </select>
       <br/>
-      <button variant="primary" type="submit">
+      <button 
+        style={{
+          padding: '10px',
+          // margin: '10px 0px',
+          border: 'none',
+          height: '50px',
+          width: '100%',
+          backgroundColor: '#1565c0',
+          fontWeight: 'bold',
+          cursor: 'pointer',
+          marginTop: '15px',
+          marginBottom: '30px'
+        }}
+        variant="primary" 
+        type="submit"
+      >
         Submit<KeyboardArrowUpIcon/>
       </button>
     </form>
-    <hr/>  
+    {/* <hr/> */}
     </div>
   );
 }

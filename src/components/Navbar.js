@@ -23,8 +23,8 @@ const Navbar = () => {
       <AppBar 
         position="fixed"
         style={{ 
-            background: '#424242',
-            backgroundImage: `url("https://i.pinimg.com/originals/0c/28/1c/0c281ccd0476d1010a21ee8b142c79ca.jpg")`,
+            background: '#b2dfdb',
+            // backgroundImage: `url("https://i.pinimg.com/originals/0c/28/1c/0c281ccd0476d1010a21ee8b142c79ca.jpg")`,
             
         }}  
       >
@@ -34,10 +34,11 @@ const Navbar = () => {
             <NavLink
               underline="hover"
               sx={{ 
-              display: 'flex', 
-              alignItems: 'center',
+                display: 'flex', 
+                alignItems: 'center',
+                color: "#1565c0"
+
               }}
-              color="inherit"
               to="/"
               exact
             >
@@ -46,10 +47,10 @@ const Navbar = () => {
             <NavLink
               underline="hover"
               sx={{ 
-              display: 'flex', 
-              alignItems: 'center',
+                display: 'flex', 
+                alignItems: 'center',
+                color: "#1565c0"
               }}
-              color="inherit"
               to="/vehicles"
               exact
             >
@@ -59,8 +60,12 @@ const Navbar = () => {
             <NavLink
               underline="hover"
               
-              sx={{ display: 'flex', alignItems: 'center' }}
-              color="inherit"
+              sx={{ 
+                display: 'flex', 
+                alignItems: 'center',
+                color: "#1565c0"
+              }}
+              color="#1565c0"
               to="/addvehicle"
               exact
             >

@@ -20,7 +20,6 @@ const App = () => {
     <div className="App">
       <Navbar />
 
-      {/* <HomePage /> */}
         <Switch>
           <Route exact path='/'>
           <Home />
@@ -34,11 +33,6 @@ const App = () => {
           />
           </Route>
         </Switch>
-        {/* <Switch>
-          <Route exact path='/vehicles/:id'>
-          <VehicleCard/>
-          </Route>
-        </Switch> */}
         <Switch>
           <Route path='/addvehicle'>
           <VehicleForm 
