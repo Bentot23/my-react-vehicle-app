@@ -28,8 +28,11 @@ const VehicleCard = ({vehicles}) => {
     <ImageList 
         style = {{
             display: "inline-block",
-            // width: "100%",
-            // height: "100%"
+            
+            width: "20%",
+            height: "100%",
+            // marginLeft: "10px",
+            // marginRight: "10px"
         }}
         // sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}
         // // variant="masonry" cols={3} gap={8}

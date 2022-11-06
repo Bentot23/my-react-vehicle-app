@@ -69,7 +69,9 @@ const VehicleForm = ({onAddVehicle}) => {
         // backgroundColor: "#424242"
         }}
         >
-      <h3>Add Vehicle</h3>
+      <h3 style={{
+        color: '#eeeeee'
+      }}>Add Vehicle</h3>
     
     <form onSubmit={handleSubmit}>
       <input

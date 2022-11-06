@@ -3,7 +3,9 @@ import React from "react";
 const Search = ({onCategoryChange, onSearchChange, search, category}) => {
   
   return (
-    <div className="search">
+    <div 
+      className="search"
+    >
       <label>
         <strong>Type:</strong>
         <select 
