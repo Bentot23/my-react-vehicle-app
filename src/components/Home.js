@@ -19,6 +19,9 @@ const Home = () => {
         marginTop: '15px',
         marginBottom: '30px',
       }}
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{ opacity: 0}}
       
     >
       <NavLink
@@ -48,6 +51,7 @@ const Home = () => {
           Get Started
         </button>
       </NavLink>
+
     </div>
   )
 }
