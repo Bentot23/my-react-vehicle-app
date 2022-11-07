@@ -44,7 +44,7 @@ const Home = () => {
           }}
         >
           <WhatshotIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          Get Started
+          Top Pic Vehicles
         </button>
       </NavLink>
 
