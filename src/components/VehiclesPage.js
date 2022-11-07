@@ -6,6 +6,11 @@ const VehiclesPage = ({vehicles, setVehicles}) => {
   const [search, setSearch] = useState('')
   const [selectedCategory, setSelectedCategory] = useState("All");
 
+  const handleDeleteVehicle = (deletedVehicle) => {
+    const updatedVehicles = vehicles.filter((vehicle) => vehicle.id !== deletedVehicle.id);
+    setVehicles(updatedVehicles);
+  }
+
   useEffect(() => {
     fetch("http://localhost:3001/vehicles")
     .then(res => res.json())
@@ -42,6 +47,7 @@ const VehiclesPage = ({vehicles, setVehicles}) => {
         category={selectedCategory}
         onSearchChange={handleSearch}
         onCategoryChange={handleCategoryChange}
+        onDelete={handleDeleteVehicle}
       />
     </div>
   )

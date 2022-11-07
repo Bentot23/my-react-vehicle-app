@@ -6,13 +6,14 @@ import Typography from '@mui/material/Typography';
 
 
 
-const VehiclesContainer = ({vehicles, search, category, onSearchChange, onCategoryChange}) => {
+const VehiclesContainer = ({vehicles, search, category, onSearchChange, onCategoryChange, onDelete}) => {
     const renderVehicle = vehicles.map(vehicle => {
       console.log(vehicle.id)
       return (
         <VehicleCard 
           key={vehicle.id}
           vehicles={vehicle} 
+          onDelete={onDelete}
         />
       )
     }) 

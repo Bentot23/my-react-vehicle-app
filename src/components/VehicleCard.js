@@ -7,8 +7,11 @@ import InfoIcon from '@mui/icons-material/Info';
 import ListSubheader from '@mui/material/ListSubheader';
 // import AddIcon from '@mui/icons-material/Add';
 // import DownloadDoneOutlinedIcon from '@mui/icons-material/DownloadDoneOutlined';
+import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
+// import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-const VehicleCard = ({vehicles}) => {
+
+const VehicleCard = ({vehicles, onDelete}) => {
     const {id, brand, model, price, description, exteriorUrl, interiorUrl} = vehicles;
     // const [isFav, setIsFav] = useState(false)
     const [showFront, setShowFront] = useState(true)
@@ -23,6 +26,17 @@ const VehicleCard = ({vehicles}) => {
     }
     const handleInfo = () => {
         setInfoClick((infoClick) => !infoClick)
+    }
+
+    const handleDeleteClick = () => {
+        fetch(`http://localhost:3001/vehicles/${vehicles.id}`, {
+          method: 'DELETE'
+        })
+        .then(r => r.json())
+        .then(() => {
+          console.log(vehicles)
+          onDelete(vehicles)
+        })
     }
 
   return (
@@ -53,12 +67,14 @@ const VehicleCard = ({vehicles}) => {
             alt={description}
             loading="lazy"
         />
+
         <ImageListItemBar
             sx={{
                 background:
                 'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, ' +
                 'rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
             }}
+            
             title={brand}
             subtitle={model}
             actionIcon={
@@ -71,7 +87,11 @@ const VehicleCard = ({vehicles}) => {
                         textAlign: 'match-parent'
                     }}
                     onClick={handleInfo}
-                >
+                >   
+                    <DeleteRoundedIcon 
+                        onClick={handleDeleteClick}
+                    />
+
                     <InfoIcon  />
                         {infoClick ? 
                             <ListSubheader 

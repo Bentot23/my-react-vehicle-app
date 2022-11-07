@@ -164,17 +164,6 @@
       "description": "The 2022 Mazda3 is available in three main trim variants: 2.0, 2.5 S, and 2.5 Turbo. The Select, Preferred, and Premium packages are available for the 2.5 S variant, while the 2.5 Turbo receives a Premium Plus package with standard AWD.",
       "exteriorUrl": "https://www.theautochannel.com/news/2022/04/27/1135690-2022-mazda3-2-5-turbo-awd-hatchback-premium-plus-review.8-lg.jpg",
       "interiorUrl": "https://di-uploads-pod30.dealerinspire.com/smailmazda/uploads/2021/03/mazda3turbo_int.jpg"
-    },
-    {
-      "brand": "Tesla",
-      "model": "Model3",
-      "interiorUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Interior_of_Model_3.jpg/1280px-Interior_of_Model_3.jpg",
-      "exteriorUrl": "https://media.ed.edmunds-media.com/tesla/model-3/2022/oem/2022_tesla_model-3_sedan_performance_fq_oem_1_1280.jpg",
-      "category": "American brand",
-      "description": "Unlike traditional all-wheel drive systems, they digitally control torque to the front and rear wheels for far better handling and traction control. Model 3 is fully electric, so you never need to visit a gas station again.",
-      "type": "sedan",
-      "price": 46990,
-      "id": 16
     }
   ]
 }
