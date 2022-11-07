@@ -36,6 +36,8 @@ Once you opened up your code editor, run ```npm install && npm start``` to insta
 * Another way to search is using the search field dropdown button, which also shows you vehicle options.
 
 ## The App
+![GiFFFFFF](https://user-images.githubusercontent.com/92287648/200244021-8cba9e30-7363-46f2-9186-50a423b15d8d.gif)
+
 
 ## Credits
     
