@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import { Gradient } from "@mui/icons-material";
 
 const VehicleForm = ({onAddVehicle}) => {
 
@@ -66,9 +65,7 @@ const VehicleForm = ({onAddVehicle}) => {
   return (
     <div 
         style = {{
-        // backgroundImage: `url("https://cdn.wallpapersafari.com/40/48/HvXbeg.jpg")`, 
         height: '100vh',
-        // backgroundColor: '#9e9e9e',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -212,7 +209,6 @@ const VehicleForm = ({onAddVehicle}) => {
       <button 
         style={{
           padding: '10px',
-          // margin: '10px 0px',
           border: 'none',
           height: '50px',
           width: '100%',
@@ -228,7 +224,6 @@ const VehicleForm = ({onAddVehicle}) => {
         Submit<KeyboardArrowUpIcon/>
       </button>
     </form>
-    {/* <hr/> */}
     </div>
   );
 }

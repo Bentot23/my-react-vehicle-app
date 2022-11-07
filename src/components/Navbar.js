@@ -2,10 +2,6 @@ import React from 'react'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-// import Button from '@mui/material/Button';
-// import Search from './Search';
-// import AddBoxIcon from '@mui/icons-material/AddBox';
-// import StarBorderIcon from '@mui/icons-material/StarBorder';
 import {NavLink} from "react-router-dom"
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 // import Link from '@mui/material/Link';
@@ -23,9 +19,7 @@ const Navbar = () => {
       <AppBar 
         position="fixed"
         style={{ 
-            background: '#b2dfdb',
-            // backgroundImage: `url("https://i.pinimg.com/originals/0c/28/1c/0c281ccd0476d1010a21ee8b142c79ca.jpg")`,
-            
+            background: '#b2dfdb',            
         }}  
       >
         <Toolbar>

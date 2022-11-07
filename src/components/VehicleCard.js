@@ -33,8 +33,6 @@ const VehicleCard = ({vehicles}) => {
             width: "20%",
             height: "100%",
         }}
-        // sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}
-        // // variant="masonry" cols={3} gap={8}
         sx={{
             width: 500,
             height: 450,
@@ -72,7 +70,6 @@ const VehicleCard = ({vehicles}) => {
                         marginBottom: '10px',
                         textAlign: 'match-parent'
                     }}
-                    // aria-label={`info about ${description}`}
                     onClick={handleInfo}
                 >
                     <InfoIcon  />

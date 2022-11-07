@@ -9,7 +9,6 @@ const Home = () => {
       style = {{
         backgroundImage: `url("https://wallpaperaccess.com/full/1728792.jpg")`, 
         height: '100vh',
-        // backgroundColor: '#9e9e9e',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -17,7 +16,6 @@ const Home = () => {
         borderRadius: '10px',
         cursor: 'pointer',
         marginTop: '15px',
-        // marginBottom: '0px',
       }}
       
       
