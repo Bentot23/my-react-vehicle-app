@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       style = {{
-        // backgroundImage: `url("https://cdn.wallpapersafari.com/40/48/HvXbeg.jpg")`, 
+        backgroundImage: `url("https://wallpaperaccess.com/full/1728792.jpg")`, 
         height: '100vh',
         // backgroundColor: '#9e9e9e',
         display: 'flex',
@@ -19,9 +19,7 @@ const Home = () => {
         marginTop: '15px',
         marginBottom: '30px',
       }}
-      intial={{opacity: 0}}
-      animate={{opacity: 1}}
-      exit={{ opacity: 0}}
+      
       
     >
       <NavLink
