@@ -38,7 +38,10 @@ Once you opened up your code editor, run ```npm install && npm start``` to insta
 ## The App
 
 ## Credits
+    
     [google](https://www.google.com/) for all the images
+    [Material UI](https://material-ui.com/)
+   
 
 
 ## MIT License
