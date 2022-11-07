@@ -17,7 +17,7 @@ const Home = () => {
         borderRadius: '10px',
         cursor: 'pointer',
         marginTop: '15px',
-        marginBottom: '30px',
+        // marginBottom: '0px',
       }}
       
       

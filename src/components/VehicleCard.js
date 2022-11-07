@@ -4,6 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
+import ListSubheader from '@mui/material/ListSubheader';
 // import AddIcon from '@mui/icons-material/Add';
 // import DownloadDoneOutlinedIcon from '@mui/icons-material/DownloadDoneOutlined';
 
@@ -31,8 +32,6 @@ const VehicleCard = ({vehicles}) => {
             
             width: "20%",
             height: "100%",
-            // marginLeft: "10px",
-            // marginRight: "10px"
         }}
         // sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}
         // // variant="masonry" cols={3} gap={8}
@@ -67,16 +66,32 @@ const VehicleCard = ({vehicles}) => {
             actionIcon={
                 <>
                 <IconButton
-                    sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                    sx={{ 
+                        color: 'rgba(255, 255, 255, 0.54)',
+                        marginTop: '10px',
+                        marginBottom: '10px',
+                        textAlign: 'match-parent'
+                    }}
                     // aria-label={`info about ${description}`}
                     onClick={handleInfo}
                 >
                     <InfoIcon  />
                         {infoClick ? 
-                            description : 
+                            <ListSubheader 
+                                style={{
+                                    background:
+                                        'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, ' +
+                                        'rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+                                        color: 'white',
+                                        overflow: 'visible',
+                                
+                                }}
+                                component="div">
+                                    {description}
+                            </ListSubheader> : 
                             `$${price}`
                         }
-                    </IconButton>
+                </IconButton>
                     {/* <button onClick={handleFav} > */}
                         {/* {isFav ? <DownloadDoneOutlinedIcon/> : <AddIcon />} */}
                         {/* <AddIcon /> */}

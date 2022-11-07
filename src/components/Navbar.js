@@ -43,6 +43,7 @@ const Navbar = () => {
               exact
             >
               <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
+              Home
             </NavLink>
             <NavLink
               underline="hover"
