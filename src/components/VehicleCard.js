@@ -83,7 +83,12 @@ const VehicleCard = ({vehicles}) => {
                                         'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, ' +
                                         'rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
                                         color: 'white',
-                                        overflow: 'visible',
+                                        overflow: 'hidden',
+                                        textOverflow: 'ellipsis',
+                                        wordWrap: 'break-word',
+                                        display: 'block',
+                                        lineHeight: '2em', /* a */
+                                        maxHeight: '30em' /* a x number of line to show (ex : 2 line)  */
                                 
                                 }}
                                 component="div">
